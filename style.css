@@ -3,8 +3,10 @@ body{
 
 }
 
-video{
+.video{
     
+    height: 35rem;
+    width: 80rem;
 }
 
 h1{
