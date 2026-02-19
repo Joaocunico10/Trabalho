@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+
+    <h1>Show do Alok dia 22/03/2026</h1>
+    <h2>Horario: 22 Horas</h2>
+    <h3>Local: Centro de eventos</h3>
+
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/JVpTp8IHdEg?si=YzTZBmxquEgIa0nt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+    
+    <br><br>
+    <h1 class="h1">Cadastro de Usuario</h1>
+
+    <!--method, action. Interessante usar-->
+    <form action="" id="formIngressoShow">
+
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required>
+
+        <br><br>
+        
+
+        <label for="email">Email:</label>
+        <input class="input" type="email" name="email" id="email" placeholder="Insira seu email" required>
+
+        <br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="number" name="Telefone" id="Telefone" placeholder="Insira seu Telefone" required>
+
+        <br><br>
+
+        <label for="ingresso">Escolha o local do ingresso:</label>
+        <br>
+
+        <input type="radio" id="Pista" name="Pista" value="Pista">
+        <label for="ingresso">Pista</label>
+
+        <br>
+
+        <input type="radio" name="Vip" id="Vip" value="Vip">
+        <label for="ingresso">Vip</label>
+
+        <br>
+
+        <input type="radio" name="Camarote" id="Camarote" value="Camarote">
+        <label for="ingresso">Camarote</label>
+
+        <br><br>
+
+        <button type="submit">Enviar o Butao</button>
+        
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
